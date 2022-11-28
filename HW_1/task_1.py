@@ -15,3 +15,8 @@ True
 1
 False
 """
+n = int (input())
+if n == 6 or n == 7:
+    print (True)
+else:
+    print (False)
