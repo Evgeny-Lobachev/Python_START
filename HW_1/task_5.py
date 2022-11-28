@@ -11,3 +11,8 @@
 11 5
 9.22
 """
+from math import *
+x1, x2 = int (input()), int (input())
+y1, y2 = int (input()), int (input())
+n = sqrt ((x1 - y1)**2 + (x2 - y2)**2)
+print (round (n, 2))
