@@ -16,3 +16,11 @@
 3
 6.62
 """
+n = int(input())
+list = []
+for n in range(1, n+1):
+    list.append((1 + 1 / n) ** n)
+print(round(sum(list), 2))
+
+
+
