@@ -8,10 +8,10 @@
 4
 [1, 2, 6, 24]
 """
-n = int (input())
+n = int(input())
 total = []
 fact = 1
-for i in range (1, n+1):
+for i in range(1, n+1):
     fact *= i
     total.append(fact)
 print(total)

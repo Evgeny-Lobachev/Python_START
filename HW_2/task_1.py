@@ -12,10 +12,10 @@
 11
 """
 
-n = float (input())
+n = float(input())
 str_n = str (n)
-str_n = str_n.replace ('.', '')
-lst_n = list (str_n)
-lst_num = map (int, lst_n)
-s = sum (lst_num)
-print (s)
+str_n = str_n.replace('.', '')
+lst_n = list(str_n)
+lst_num = map(int, lst_n)
+s = sum(lst_num)
+print(s)
