@@ -14,3 +14,9 @@
 2
 10
 """
+n = int(input())
+num = '' 
+while n > 0:
+    num = str(n % 2) + num
+    n = n // 2
+print(num)
