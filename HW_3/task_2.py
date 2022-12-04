@@ -13,3 +13,12 @@
 [2, 3, 5, 6]
 [12, 15]
 """
+import random
+n = int(input())
+first_list = [random.randint(0, n) for i in range(n)]
+print(first_list)
+
+second_list = []
+for i in range(0, (n + 1) // 2):
+    second_list.append(first_list[i] * first_list[- i - 1])
+print(second_list)
