@@ -9,3 +9,5 @@
 
 Данный модуль – точка входа приложения
 """
+from controller import start
+start()
